@@ -1,6 +1,9 @@
 {
+  "name": "Action Server Environment",
   "postAttachCommand": 
   {
     "server": "npm start"
-  }
+  },
+
+  "forwardPorts": [1880]
 }
