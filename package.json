@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node-red -D editorTheme.tours=false -D editorTheme.projects.enabled=true -D notify.message='This environment will be terminated within 10 minutes. Please download your flow immediately.' -D notify.timer=13800000"
+    "start": "cp ./weatherbot_action_flow.json ~/.node-red/flows.json && node-red -D editorTheme.tours=false -D editorTheme.projects.enabled=false -D notify.message='This environment will be terminated within 10 minutes. Please download your flow immediately.' -D notify.timer=13800000"
   },
   "dependencies": {
     "node-red": "*",
