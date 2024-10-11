@@ -1,0 +1,21 @@
+[
+    {
+        "id": "8ef763995db294e3",
+        "type": "template",
+        "z": "181dbd850b4ded1f",
+        "name": "",
+        "field": "url",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "http://api.weatherstack.com/current?access_key=ZYX&query={{slots.location}}",
+        "output": "str",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "54e4a22d81779b03"
+            ]
+        ]
+    }
+]

@@ -2,8 +2,8 @@
     {
         "id": "95526930634809d4",
         "type": "tab",
-        "label": "CAI-KIC-Bot",
-        "disabled": false,
+        "label": "CAI-KIC-Bot-1",
+        "disabled": true,
         "info": "",
         "env": []
     },
@@ -105,7 +105,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "http://api.weatherstack.com/current?access_key=API Key&query={{slots.location}}",
+        "template": "http://api.weatherstack.com/current?access_key=ZYX&query={{slots.location}}",
         "output": "str",
         "x": 140,
         "y": 200,
